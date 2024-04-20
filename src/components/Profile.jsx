@@ -18,7 +18,7 @@ const Profile = () => {
           Muhammad Arrafi Septiawan
         </h2>
 
-        <p className="mt-3 text-[14px] font-medium bg-gray-200 py-2 px-4 rounded-md dark:text-white dark:bg-black transition-all hover:bg-gray-300 duration-300 dark:hover:bg-black">
+        <p className="mt-3 text-[14px] font-medium bg-gray-200 py-2 px-4 rounded-md dark:text-white dark:bg-black transition-all hover:bg-gray-300 duration-150 dark:hover:bg-black">
           Front End Developer
         </p>
 
@@ -285,13 +285,13 @@ const Profile = () => {
           <div className="text-phone">
             <h2 className="font-normal dark:text-black text-sm">Birthday</h2>
             <p className="font-semibold dark:text-black text-base">
-              September, 25 1999
+              September 25, 1999
             </p>
           </div>
         </div>
       </div>
 
-      <div className="flex flex-col items-center  mt-4">
+      <div className="flex flex-col items-center mt-10">
         <a
           href="#"
           className="flex items-center gap-1 bg-blue-600 py-2 px-4 rounded-lg text-white"

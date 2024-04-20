@@ -1,5 +1,10 @@
-## Web New Portfolio
+# Web New Portfolio
 
 Teknologi yang digunakan yaitu :
 
-# ReactJs & TailiwndCSS
+## ReactJs & TailiwndCSS
+
+Sudah dikerjakan :
+
+- Halaman Profile
+- Halaman Resume

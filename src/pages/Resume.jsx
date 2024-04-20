@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import Profile from "../components/Profile";
-import HomeContent from "../components/HomeContent";
+import Navbar from "../components/Navbar";
+import ResumeContent from "../components/ResumeContent";
 
-const Home = () => {
+const Resume = () => {
   return (
     <section
-      id="home"
+      id="resume"
       className="py-24 px-20 flex gap-6 max-lg:flex-col max-lg:w-full max-lg:px-4 max-lg:gap-4 max-lg:py-12"
     >
       {/* Left */}
@@ -24,7 +24,7 @@ const Home = () => {
         data-aos-duration="1000"
         data-aos-delay="500"
       >
-        <HomeContent />
+        <ResumeContent />
       </div>
       {/* Right */}
       <aside
@@ -39,4 +39,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Resume;
