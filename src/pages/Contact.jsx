@@ -22,7 +22,7 @@ const Contact = () => {
       {/* Center */}
       <div
         className="w-full bg-white rounded-2xl shadow-2xl max-lg:w-full"
-        data-aos={window.innerWidth >= 768 ? "fade-down" : "fade-right"}
+        data-aos={window.innerWidth >= 768 ? "fade-down" : ""}
         data-aos-duration="1000"
         data-aos-delay="500"
       >

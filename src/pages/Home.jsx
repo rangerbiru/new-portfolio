@@ -21,7 +21,7 @@ const Home = () => {
       {/* Center */}
       <div
         className="w-full bg-white rounded-2xl shadow-2xl max-lg:w-full"
-        data-aos={window.innerWidth >= 768 ? "fade-down" : "fade-right"}
+        data-aos={window.innerWidth >= 768 ? "fade-down" : ""}
         data-aos-duration="1000"
         data-aos-delay="500"
       >
@@ -32,7 +32,7 @@ const Home = () => {
       <aside
         className="w-48 h-fit bg-white rounded-2xl shadow-2xl max-lg:h-full max-lg:w-full"
         data-aos={window.innerWidth >= 768 ? "fade-left" : ""}
-        data-aos-duration={window.innerWidth >= 768 ? "1000" : "100"}
+        data-aos-duration="1000"
         data-aos-delay="1000"
       >
         <Navbar />
