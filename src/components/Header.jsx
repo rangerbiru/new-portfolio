@@ -33,7 +33,7 @@ const Header = () => {
     <header id="header" className="lg:pt-20 lg:px-20">
       {/* Desktop */}
       <div className="flex items-center justify-between py-10 px-5 lg:p-10 lg:flex lg:items-center lg:justify-between">
-        <h2 className="text-4xl font-semibold tracking-wide text-white dark:text-white max-lg:text-2xl">
+        <h2 className="text-4xl font-semibold tracking-wide text-white dark:text-white max-lg:text-2xl title-roboto">
           Rangerbiru.dev
         </h2>
 

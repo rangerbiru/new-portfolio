@@ -1,19 +1,19 @@
 import React from "react";
-import ProfileImage from "../assets/profile.png";
+import ProfileImage from "../assets/profile1.jpg";
 import { Link } from "react-router-dom";
 
 const Profile = () => {
   return (
-    <div className="p-10 w-full">
-      <div className="absolute -top-16 left-1/2 -translate-x-1/2 lg:-top-24">
+    <div className="py-8 px-10 w-full">
+      <div className="absolute max-lg:relative max-lg:-top-32 -top-16 left-1/2 -translate-x-1/2 lg:-top-24 overflow-hidden size-48 rounded-full">
         <img
           src={ProfileImage}
           alt="profile"
-          className="rounded-full w-48 max-lg:w-32"
+          className="rounded-full object-cover max-lg:w-full absolute top-0 left-0 w-full h-[135%]"
         />
       </div>
 
-      <div className="mt-[40px] lg:mt-20 flex flex-col items-center">
+      <div className="mt-[40px] lg:mt-20 flex flex-col items-center max-lg:-mt-28">
         <h2 className="text-2xl font-semibold dark:text-black text-center">
           Muhammad Arrafi Septiawan
         </h2>
@@ -133,7 +133,7 @@ const Profile = () => {
         </div>
       </div>
 
-      <div className="mt-4 p-6 bg-gray-200 rounded-lg flex flex-col gap-5">
+      <div className="mt-4 p-6 bg-gray-200 rounded-lg flex flex-col gap-5 border-2 border-white dark:border-black">
         {/* Phone */}
         <div className="flex items-center gap-3">
           <svg
@@ -291,7 +291,7 @@ const Profile = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-center mt-10">
+      <div className="flex flex-col items-center mt-8">
         <a
           href="#"
           className="flex items-center gap-1 bg-blue-600 py-2 px-4 rounded-lg text-white"
@@ -307,7 +307,13 @@ const Profile = () => {
               d="M21,14a1,1,0,0,0-1,1v4a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V15a1,1,0,0,0-2,0v4a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V15A1,1,0,0,0,21,14Zm-9.71,1.71a1,1,0,0,0,.33.21.94.94,0,0,0,.76,0,1,1,0,0,0,.33-.21l4-4a1,1,0,0,0-1.42-1.42L13,12.59V3a1,1,0,0,0-2,0v9.59l-2.29-2.3a1,1,0,1,0-1.42,1.42Z"
             ></path>
           </svg>
-          <h2 className="font-medium">Download CV</h2>
+          <a
+            href="https://rangerbiru.github.io/cvOri2/index.html"
+            target="_blank"
+            className="font-medium"
+          >
+            Download CV
+          </a>
         </a>
       </div>
     </div>

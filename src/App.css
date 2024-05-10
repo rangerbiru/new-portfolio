@@ -6,3 +6,7 @@
 .title-roboto {
     font-family: "Roboto Slab", serif;
 }
+
+.hover-img:hover img {
+    filter: brightness(50%);
+}

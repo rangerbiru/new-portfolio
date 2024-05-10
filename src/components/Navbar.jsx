@@ -6,7 +6,7 @@ const Navbar = () => {
 
   const isHomePage = location.pathname === "/";
   const isResumePage = location.pathname === "/resume";
-  const isWorkPage = location.pathname === "/work";
+  const isWorkPage = location.pathname === "/portfolio";
   const isContactPage = location.pathname === "/contact";
 
   return (
@@ -16,13 +16,13 @@ const Navbar = () => {
         to={"/"}
         className={`${
           isHomePage ? "bg-blue-600 text-white" : "bg-gray-200 text-black"
-        }  w-full py-4 rounded-lg flex flex-col items-center gap-2`}
+        }  w-full py-4 rounded-lg flex flex-col items-center gap-2 border-2 border-white dark:border-black`}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
-          stroke-width="1.5"
+          stroke-width="2.2"
           stroke="currentColor"
           className="size-6"
         >
@@ -41,13 +41,13 @@ const Navbar = () => {
         to={"/resume"}
         className={`${
           isResumePage ? "bg-blue-600 text-white" : "bg-gray-200 text-black"
-        }  w-full py-4 rounded-lg flex flex-col items-center gap-2`}
+        }  w-full py-4 rounded-lg flex flex-col items-center gap-2 border-2 border-white dark:border-black`}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
-          stroke-width="1.5"
+          stroke-width="2.2"
           stroke="currentColor"
           className="size-6"
         >
@@ -63,16 +63,16 @@ const Navbar = () => {
 
       {/* Profile Page */}
       <Link
-        to={"/work"}
+        to={"/portfolio"}
         className={`${
           isWorkPage ? "bg-blue-600 text-white" : "bg-gray-200 text-black"
-        }  w-full py-4 rounded-lg flex flex-col items-center gap-2`}
+        }  w-full py-4 rounded-lg flex flex-col items-center gap-2 border-2 border-white dark:border-black`}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
-          stroke-width="1.5"
+          stroke-width="2.2"
           stroke="currentColor"
           className="size-6"
         >
@@ -83,7 +83,7 @@ const Navbar = () => {
           />
         </svg>
 
-        <h2 className="text-sm font-medium">Work</h2>
+        <h2 className="text-sm font-medium">Portfolio</h2>
       </Link>
 
       {/* Profile Page */}
@@ -91,13 +91,13 @@ const Navbar = () => {
         to={"/contact"}
         className={`${
           isContactPage ? "bg-blue-600 text-white" : "bg-gray-200 text-black"
-        }  w-full py-4 rounded-lg flex flex-col items-center gap-2`}
+        }  w-full py-4 rounded-lg flex flex-col items-center gap-2 border-2 border-white dark:border-black`}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
-          stroke-width="1.5"
+          stroke-width="2.2"
           stroke="currentColor"
           className="size-6"
         >

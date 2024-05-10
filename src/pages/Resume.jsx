@@ -2,6 +2,7 @@ import React from "react";
 import Profile from "../components/Profile";
 import Navbar from "../components/Navbar";
 import ResumeContent from "../components/ResumeContent";
+import Footer from "../components/Footer";
 
 const Resume = () => {
   return (
@@ -25,6 +26,7 @@ const Resume = () => {
         data-aos-delay="500"
       >
         <ResumeContent />
+        <Footer />
       </div>
       {/* Right */}
       <aside

@@ -28,10 +28,10 @@ const HomeProflie = () => {
 
       {/* What I To Do */}
       <div className="mt-4">
-        <h2 className="text-2xl font-medium">Apa Yang Dapat Saya Lakukan?</h2>
+        <h2 className="text-2xl font-medium">What I Do!</h2>
         <div className="grid grid-cols-2 gap-5 mt-4 max-lg:grid-cols-1">
           {/* Web Development */}
-          <div className="flex gap-2 p-5 bg-rose-50 rounded-lg">
+          <div className="flex gap-2 p-5 bg-rose-50 rounded-lg border-2 border-white dark:border-black">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -56,7 +56,7 @@ const HomeProflie = () => {
             </div>
           </div>
 
-          <div className="flex gap-2 bg-indigo-50 rounded-lg p-5">
+          <div className="flex gap-2 bg-indigo-50 rounded-lg p-5 border-2 border-white dark:border-black">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -82,24 +82,32 @@ const HomeProflie = () => {
             </div>
           </div>
 
-          <div className="flex gap-2 bg-indigo-50 rounded-lg p-5">
+          <div className="flex gap-2 bg-indigo-50 rounded-lg p-5 border-2 border-white dark:border-black">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
               className="w-20 h-6"
+              viewBox="0 0 24 24"
             >
-              <path
+              <g
+                fill="none"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437 1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008Z"
-              />
+                stroke-width="1.5"
+              >
+                <path d="m17.674 11.408l-1.905 5.716a.6.6 0 0 1-.398.385L3.693 20.981a.6.6 0 0 1-.74-.765L6.745 8.842a.6.6 0 0 1 .34-.365l5.387-2.218a.6.6 0 0 1 .653.13l4.404 4.405a.6.6 0 0 1 .145.614ZM3.296 20.602l6.364-6.364" />
+                <path
+                  fill="currentColor"
+                  d="m18.403 3.182l2.364 2.364a1.846 1.846 0 1 1-2.61 2.61l-2.365-2.364a1.846 1.846 0 0 1 2.61-2.61Z"
+                />
+                <path d="M11.781 12.116a1.5 1.5 0 1 0-2.121 2.121a1.5 1.5 0 0 0 2.121-2.121Z" />
+              </g>
             </svg>
 
             <div className="flex flex-col text-justify ">
-              <h2 className="font-semibold mb-2">Phone Services</h2>
+              <h2 className="font-semibold mb-2">
+                UI/UX Design Slicing To Code
+              </h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Asperiores eaque sint magnam aut laboriosam quibusdam, ratione
@@ -108,24 +116,44 @@ const HomeProflie = () => {
             </div>
           </div>
 
-          <div className="flex gap-2 bg-rose-50 rounded-lg p-5">
+          <div className="flex gap-2 bg-rose-50 rounded-lg p-5 border-2 border-white dark:border-black">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
               className="w-20 h-6"
+              viewBox="0 0 2000 2000"
             >
               <path
+                fill="none"
+                stroke="currentColor"
                 stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25"
+                stroke-width="70"
+                d="M1130.71 627.789c-38.976-25.404-82.7-43.13-128.386-52.095l.591-102.517h-142.26h0l.267 103.322c-22.455 4.662-44.772 11.39-66.634 20.506c-21.861 9.145-42.217 20.327-61.158 32.966l-74.256-73.362l-99.45 100.026l74.164 73.264c-25.558 38.817-43.358 82.212-52.35 127.764l-105.291.19V998.58l106.158-.382c4.655 22.218 11.411 44.494 20.585 66.175c9.22 21.82 20.401 42.082 33.18 60.847"
               />
+              <g
+                fill="none"
+                stroke="currentColor"
+                stroke-width="62.717"
+                transform="translate(91.594 974.827) scale(1.11612)"
+              >
+                <path
+                  stroke-linecap="round"
+                  d="M997.93 547.347v-97.233c20.037-4 40.034-10.123 59.58-18.235c19.587-8.209 37.866-18.236 54.959-29.592l67.921 66.967l89.145-89.487l-67.963-66.973a322.22 322.22 0 0 0 46.944-114.535l92.253-.568V71.73l-93.07.568c-4.17-19.95-10.142-39.738-18.402-59.23c-8.26-19.526-18.279-37.705-29.728-54.604l64.323-64.485l-90.044-88.696l-64.242 64.461c-34.921-22.76-74.096-38.642-115.029-46.675l.529-91.85H867.648l.239 92.572c-20.119 4.177-40.115 10.202-59.702 18.37c-19.587 8.194-37.825 18.213-54.796 29.537l-66.53-65.73l-89.104 89.62l66.45 65.642C641.304-3.993 625.356 34.889 617.3 75.7l-94.338.17v126.084l95.115-.34c4.17 19.906 10.223 39.863 18.442 59.288c8.26 19.549 18.279 37.704 29.729 54.517L598.04 383.36l90.085 88.536l68.044-67.73c34.922 22.897 74.097 38.722 115.07 46.723l.043 96.414c42.195.32 126.647.043 126.647.043z"
+                />
+                <ellipse
+                  cx="932.387"
+                  cy="134.257"
+                  stroke-dashoffset="700"
+                  stroke-linecap="square"
+                  rx="109.88"
+                  ry="109.879"
+                />
+              </g>
             </svg>
 
             <div className="flex flex-col text-justify">
-              <h2 className="font-semibold mb-2">Laptop/PC Services</h2>
+              <h2 className="font-semibold mb-2">
+                Laptop, PC, And Phone Services
+              </h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Asperiores eaque sint magnam aut laboriosam quibusdam, ratione
