@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Profile = () => {
   return (
-    <div className="py-8 px-10 w-full">
+    <div className="py-8 px-10 w-full max-lg:p-6">
       <div className="absolute max-lg:relative max-lg:-top-32 -top-16 left-1/2 -translate-x-1/2 lg:-top-24 overflow-hidden size-48 rounded-full">
         <img
           src={ProfileImage}
@@ -141,7 +141,7 @@ const Profile = () => {
             enable-background="new 0 0 512 512"
             viewBox="0 0 512 512"
             id="phone"
-            className="w-10 h-10 bg-white p-2 rounded-lg border-2 border-white dark:border-black transition-all duration-300"
+            className="size-10 bg-white p-2 rounded-lg border-2 border-white dark:border-black transition-all duration-300"
           >
             <path
               fill="#C65BCF"
@@ -166,7 +166,7 @@ const Profile = () => {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             id="email"
-            className="w-10 h-10 bg-white p-2 rounded-lg border-2 border-white dark:border-black transition-all duration-300"
+            className="size-10 bg-white p-2 rounded-lg border-2 border-white dark:border-black transition-all duration-300"
           >
             <g>
               <path fill="#fff" d="M.5 4.5h22v16H.5z"></path>
@@ -204,7 +204,7 @@ const Profile = () => {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             id="location"
-            className="w-10 h-10 bg-white p-2 rounded-lg border-2 border-white dark:border-black transition-all duration-300"
+            className="size-10 bg-white p-2 rounded-lg border-2 border-white dark:border-black transition-all duration-300"
           >
             <path
               fill="#d24545"
@@ -225,7 +225,7 @@ const Profile = () => {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 64 64"
             id="city"
-            className="w-10 h-10 bg-white p-2 rounded-lg border-2 border-white dark:border-black transition-all duration-300"
+            className="size-10 bg-white p-2 rounded-lg border-2 border-white dark:border-black transition-all duration-300"
           >
             <path
               fill="none"

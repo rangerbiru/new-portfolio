@@ -2,7 +2,7 @@ import React from "react";
 
 const HomeProflie = () => {
   return (
-    <div className="p-10 dark:text-black">
+    <div className="p-10 dark:text-black max-lg:py-8 max-lg:px-6">
       {/* Title */}
       <div className="flex items-center gap-6">
         <h2 className="text-4xl font-bold title-roboto">About</h2>

@@ -31,7 +31,7 @@ const Resume = () => {
       {/* Right */}
       <aside
         className="w-48 h-fit bg-white rounded-2xl shadow-2xl max-lg:h-full max-lg:w-full"
-        data-aos={window.innerWidth >= 768 ? "fade-left" : "fade-up"}
+        data-aos={window.innerWidth >= 768 ? "fade-left" : ""}
         data-aos-duration="1000"
         data-aos-delay="1000"
       >
