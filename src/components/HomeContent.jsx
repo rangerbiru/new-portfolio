@@ -1,5 +1,11 @@
 import React from "react";
 
+import bnsp from "../assets/certificate/bnsp.jpg";
+import jsDasar from "../assets/certificate/js-dasar.jpg";
+import reactJs from "../assets/certificate/reactjs.jpg";
+import webDasar from "../assets/certificate/web-dasar.jpg";
+import Fancybox from "../utils/FancyBox";
+
 const HomeProflie = () => {
   return (
     <div className="p-10 dark:text-black max-lg:py-8 max-lg:px-6">
@@ -164,6 +170,53 @@ const HomeProflie = () => {
               </p>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Certificate */}
+
+      <div className="mt-6">
+        <h2 className="text-2xl font-semibold">Certificate</h2>
+
+        <div className="mt-4">
+          <Fancybox
+            options={{
+              Carousel: {
+                infinite: false,
+              },
+            }}
+          >
+            <div className="grid grid-cols-2 gap-6">
+              <a data-fancybox="certificate" href={webDasar}>
+                <img
+                  src={webDasar}
+                  alt="certificate"
+                  className="w-full h-[330px] object-cover rounded-lg"
+                />
+              </a>
+              <a data-fancybox="certificate" href={reactJs}>
+                <img
+                  src={reactJs}
+                  alt="certificate"
+                  className="w-full h-[330px] object-cover rounded-lg"
+                />
+              </a>
+              <a data-fancybox="certificate" href={jsDasar}>
+                <img
+                  src={jsDasar}
+                  alt="certificate"
+                  className="w-full h-[330px] object-cover rounded-lg"
+                />
+              </a>
+              <a data-fancybox="certificate" href={bnsp}>
+                <img
+                  src={bnsp}
+                  alt="certificate"
+                  className="w-full h-[330px] object-cover rounded-lg border-8 border-blue-950"
+                />
+              </a>
+            </div>
+          </Fancybox>
         </div>
       </div>
     </div>

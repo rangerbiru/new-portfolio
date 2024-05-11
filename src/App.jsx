@@ -8,7 +8,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Resume from "./pages/Resume";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
-import ScrollToTop from "./components/ScrollToTop";
+import ScrollToTop from "./utils/ScrollToTop";
 
 const App = () => {
   useEffect(() => {
