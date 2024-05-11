@@ -23,9 +23,8 @@ const App = () => {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center center",
         backgroundSize: "cover",
-        backgroundAttachment: "fixed",
       }}
-      className={`bg-[url('./assets/bgHome.svg')] dark:bg-[url('./assets/bgHomeDark.svg')] transition-all duration-300`}
+      className={`bg-[url('./assets/bgHome.svg')] dark:bg-[url('./assets/bgHomeDark.svg')] transition-all duration-300 bg-fixed max-lg:bg-scroll`}
     >
       <Header />
       <main className="mt-10">

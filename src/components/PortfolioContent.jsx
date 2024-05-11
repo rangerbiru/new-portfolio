@@ -111,8 +111,8 @@ const PortfolioContent = () => {
           {displayData.map(({ img, link, title, category }, i) => (
             <>
               {category.length === 0 ? (
-                <div className="mb-10 mt-5">
-                  <h2 className="text-xl font-bold title-roboto bg-gray-200 py-2 px-4 absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 rounded-lg hover:bg-gray-500 hover:text-white hover:scale-150 transition-all duration-300 dark:border-2 dark:border-black">
+                <div className="my-12">
+                  <h2 className="text-xl font-bold title-roboto bg-gray-200 py-2 px-4 absolute left-1/2 -translate-x-1/2  rounded-lg hover:bg-gray-500 hover:text-white hover:scale-150 transition-all duration-300 dark:border-2 dark:border-black">
                     Coming Soon
                   </h2>
                 </div>

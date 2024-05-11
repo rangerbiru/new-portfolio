@@ -28,64 +28,13 @@ const HomeProflie = () => {
 
       {/* What I To Do */}
       <div className="mt-4">
-        <h2 className="text-2xl font-medium">What I Do!</h2>
+        <h2 className="text-2xl font-semibold">What I Do!</h2>
         <div className="grid grid-cols-2 gap-5 mt-4 max-lg:grid-cols-1">
           {/* Web Development */}
-          <div className="flex gap-2 p-5 bg-rose-50 rounded-lg border-2 border-white dark:border-black">
+          <div className="flex gap-2 p-5 bg-rose-50 rounded-lg border-2 border-white dark:border-black relative">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              className="w-20 h-6"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5"
-              />
-            </svg>
-
-            <div className="flex flex-col text-justify">
-              <h2 className="font-semibold mb-2">Web Development</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-                ipsa accusamus dolore explicabo dolores error.
-              </p>
-            </div>
-          </div>
-
-          <div className="flex gap-2 bg-indigo-50 rounded-lg p-5 border-2 border-white dark:border-black">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              className="w-20 h-6"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
-              />
-            </svg>
-
-            <div className="flex flex-col text-justify">
-              <h2 className="font-semibold mb-2">Mobile Development</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores eaque sint magnam aut laboriosam quibusdam, ratione
-                aliquid doloribus sed repellendus?
-              </p>
-            </div>
-          </div>
-
-          <div className="flex gap-2 bg-indigo-50 rounded-lg p-5 border-2 border-white dark:border-black">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="w-20 h-6"
+              className="absolute opacity-25 left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 size-28"
               viewBox="0 0 24 24"
             >
               <g
@@ -105,21 +54,73 @@ const HomeProflie = () => {
             </svg>
 
             <div className="flex flex-col text-justify ">
-              <h2 className="font-semibold mb-2">
+              <h2 className="font-semibold mb-2 lg:text-xl">
                 UI/UX Design Slicing To Code
               </h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores eaque sint magnam aut laboriosam quibusdam, ratione
-                aliquid doloribus sed repellendus?
+                I have done slicing figma designs into a website, such as ngliee
+                and culiner projects
               </p>
             </div>
           </div>
 
-          <div className="flex gap-2 bg-rose-50 rounded-lg p-5 border-2 border-white dark:border-black">
+          <div className="flex gap-2 bg-indigo-50 rounded-lg p-5 border-2 border-white dark:border-black relative">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="w-20 h-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              className="absolute opacity-25 left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 size-28"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
+              />
+            </svg>
+
+            <div className="flex flex-col text-justify">
+              <h2 className="font-semibold mb-2 lg:text-xl">
+                Mobile Development
+              </h2>
+              <p>
+                I have used React Native based on Android and iOS to create an
+                application for selling used goods
+              </p>
+            </div>
+          </div>
+
+          <div className="flex gap-2 bg-indigo-50 rounded-lg p-5 border-2 border-white dark:border-black relative">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              className="absolute opacity-25 left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 size-28"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5"
+              />
+            </svg>
+
+            <div className="flex flex-col text-justify">
+              <h2 className="font-semibold mb-2 lg:text-xl">Web Developer</h2>
+              <p>
+                I have experience in the field of web development for 5 years. I
+                am used to using HTML, CSS, Javascript, PHP. The frameworks I
+                use are ReactJs, NextJs, Laravel, TailwindCSS, and Bootstrap
+              </p>
+            </div>
+          </div>
+
+          <div className="flex gap-2 bg-rose-50 rounded-lg p-5 border-2 border-white dark:border-black relative">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="absolute opacity-25 left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 size-28"
               viewBox="0 0 2000 2000"
             >
               <path
@@ -151,13 +152,15 @@ const HomeProflie = () => {
             </svg>
 
             <div className="flex flex-col text-justify">
-              <h2 className="font-semibold mb-2">
+              <h2 className="font-semibold mb-2 lg:text-xl">
                 Laptop, PC, And Phone Services
               </h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores eaque sint magnam aut laboriosam quibusdam, ratione
-                aliquid doloribus sed repellendus?
+                I have done laptop servicing such as installing Windows and
+                Linux, installing RAM, SSD, hard disk, and cleaning the
+                processor. The cellphone services I have done include replacing
+                the screen, replacing the battery, repairing the power button,
+                and installing a custom ROM
               </p>
             </div>
           </div>

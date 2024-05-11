@@ -5,7 +5,7 @@ const ProgressBar = ({ title, percentage, color }) => {
     <div className="mb-6">
       <h3 className="text-lg font-medium mb-0.5">{title}</h3>
       <div className="flex items-center gap-4">
-        <div className=" h-2.5 bg-gray-200 rounded-3xl w-full dark:border-2 dark:border-black dark:h-3.5">
+        <div className=" h-2.5 bg-gray-200 rounded-3xl w-full dark:border-2 dark:border-black dark:h-3">
           <div
             className={`${color} rounded h-full`}
             style={{ width: `${percentage}%` }}

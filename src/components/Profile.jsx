@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Profile = () => {
   return (
     <div className="py-8 px-10 w-full max-lg:p-6">
-      <div className="absolute max-lg:relative max-lg:-top-32 -top-16 left-1/2 -translate-x-1/2 lg:-top-24 overflow-hidden size-48 rounded-full">
+      <div className="absolute max-lg:relative max-lg:-top-28 -top-16 left-1/2 -translate-x-1/2 lg:-top-24 overflow-hidden size-48 rounded-full max-lg:size-36 max-lg:mb-5">
         <img
           src={ProfileImage}
           alt="profile"
@@ -35,7 +35,10 @@ const Profile = () => {
             </svg>
           </a>
 
-          <a href="#" target="_blank">
+          <a
+            href="https://web.facebook.com/jsishsgxybsiwowjwidhe"
+            target="_blank"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 16 16"
@@ -54,25 +57,17 @@ const Profile = () => {
           <a href="#" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="512"
-              height="512"
-              fill="none"
-              viewBox="0 0 512 512"
-              id="twitter"
+              viewBox="0 0 256 256"
               className="w-11 h-11 rounded-md bg-gray-100 p-2 border-white border-2 dark:border-black dark:bg-white hover:border-black transition-all duration-300"
             >
-              <g clip-path="url(#clip0_84_15698)">
-                <rect width="512" height="512" fill="#fff" rx="60"></rect>
+              <g fill="none">
+                <rect width="256" height="256" fill="#fff" rx="60" />
+                <rect width="256" height="256" fill="#0A66C2" rx="60" />
                 <path
-                  fill="#000"
-                  d="M355.904 100H408.832L293.2 232.16L429.232 412H322.72L239.296 302.928L143.84 412H90.8805L214.56 270.64L84.0645 100H193.28L268.688 199.696L355.904 100ZM337.328 380.32H366.656L177.344 130.016H145.872L337.328 380.32Z"
-                ></path>
+                  fill="#fff"
+                  d="M184.715 217.685h29.27a4 4 0 0 0 4-3.999l.015-61.842c0-32.323-6.965-57.168-44.738-57.168c-14.359-.534-27.9 6.868-35.207 19.228a.32.32 0 0 1-.595-.161V101.66a4 4 0 0 0-4-4h-27.777a4 4 0 0 0-4 4v112.02a4 4 0 0 0 4 4h29.268a4 4 0 0 0 4-4v-55.373c0-15.657 2.97-30.82 22.381-30.82c19.135 0 19.383 17.916 19.383 31.834v54.364a4 4 0 0 0 4 4ZM38 59.627c0 11.865 9.767 21.627 21.632 21.627c11.862-.001 21.623-9.769 21.623-21.631C81.253 47.761 71.491 38 59.628 38C47.762 38 38 47.763 38 59.627Zm6.959 158.058h29.307a4 4 0 0 0 4-4V101.66a4 4 0 0 0-4-4H44.959a4 4 0 0 0-4 4v112.025a4 4 0 0 0 4 4Z"
+                />
               </g>
-              <defs>
-                <clipPath id="clip0_84_15698">
-                  <rect width="512" height="512" fill="#fff"></rect>
-                </clipPath>
-              </defs>
             </svg>
           </a>
 

@@ -8,19 +8,19 @@ const ContactContent = () => {
         <div className="w-60 h-1 rounded-3xl bg-blue-600"></div>
       </div>
 
-      <div className="bg-gray-100 py-14 px-12 rounded-sm mt-10">
+      <div className="bg-gray-100 py-14 px-12 rounded-sm mt-10 max-lg:py-4 max-lg:px-4 ">
         <div className="box">
-          <h2 className="text-xl text-gray-600 leading-relaxed font-medium">
+          <h2 className="text-xl text-gray-600 leading-relaxed font-medium max-lg:text-base">
             I'm Always Open To Discussing Product <br />
             <span className="text-black font-bold">
               design work or partnerships
             </span>
           </h2>
 
-          <form className="flex flex-col gap-10 my-10">
+          <form className="flex flex-col gap-10 my-10 max-lg:my-8">
             <div className="flex flex-col">
               <label htmlFor="name">
-                Name <span className="text-red-600">*</span>
+                Name <span className="text-red-600 ">*</span>
               </label>
               <input
                 type="text"
@@ -49,7 +49,7 @@ const ContactContent = () => {
             </div>
 
             <div className="mt-2">
-              <button className="flex border-2 border-transparent dark:border-black py-3 px-6 text-sm rounded-xl text-white hover:bg-blue-800 hover:tracking-widest bg-blue-600 dark:text-black dark:hover:bg-blue-600 dark:bg-transparent transition-all duration-300 hover:text-white">
+              <button className="flex border-2 border-transparent dark:border-black py-3 px-4 text-sm rounded-xl text-white hover:bg-blue-800 hover:tracking-widest bg-blue-600 dark:text-black dark:hover:bg-blue-600 dark:bg-transparent transition-all duration-300 hover:text-white max-lg:w-full max-lg:justify-center">
                 Send Message
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
