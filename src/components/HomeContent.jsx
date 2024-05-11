@@ -34,7 +34,7 @@ const HomeProflie = () => {
           <div className="flex gap-2 p-5 bg-rose-50 rounded-lg border-2 border-white dark:border-black relative">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="absolute opacity-25 left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 size-28"
+              className="absolute opacity-15 left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 size-16"
               viewBox="0 0 24 24"
             >
               <g
@@ -71,7 +71,7 @@ const HomeProflie = () => {
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              className="absolute opacity-25 left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 size-28"
+              className="absolute opacity-15 left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 size-16"
             >
               <path
                 stroke-linecap="round"
@@ -98,7 +98,7 @@ const HomeProflie = () => {
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              className="absolute opacity-25 left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 size-28"
+              className="absolute opacity-15 left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 size-16"
             >
               <path
                 stroke-linecap="round"
@@ -120,7 +120,7 @@ const HomeProflie = () => {
           <div className="flex gap-2 bg-rose-50 rounded-lg p-5 border-2 border-white dark:border-black relative">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="absolute opacity-25 left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 size-28"
+              className="absolute opacity-15 left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 size-20"
               viewBox="0 0 2000 2000"
             >
               <path

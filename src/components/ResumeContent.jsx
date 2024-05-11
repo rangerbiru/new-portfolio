@@ -20,7 +20,7 @@ const ProgressBar = ({ title, percentage, color }) => {
 const KnowLedge = ({ title }) => {
   return (
     <div className="flex flex-wrap">
-      <h3 className="bg-gray-200 py-3 px-4 rounded w-fit text-sm dark:border dark:border-black hover:bg-gray-500 hover:text-white transition-all duration-300 max-lg:text-xs">
+      <h3 className="bg-gray-200 py-3 px-4 rounded w-fit text-sm dark:border dark:border-black hover:bg-gray-500 hover:text-white transition-all duration-300 ">
         {title}
       </h3>
     </div>
@@ -59,6 +59,16 @@ const ResumeContent = () => {
 
           <div className="grid grid-cols-1 gap-6 mt-6">
             <div className="bg-rose-50 p-6 rounded-lg border-2 border-white dark:border-black">
+              <h4 className="text-gray-500 font-medium text-sm">2022 & 2023</h4>
+              <h2 className="text-lg font-medium">
+                Dicoding Academy Indonesia
+              </h2>
+              <p className="text-sm">
+                Take front end developer skills certification training
+              </p>
+            </div>
+
+            <div className="bg-indigo-50 p-6 rounded-lg border-2 border-white dark:border-black">
               <h4 className="text-gray-500 font-medium text-sm">
                 2018 - Present
               </h4>
@@ -70,7 +80,7 @@ const ResumeContent = () => {
               </p>
             </div>
 
-            <div className="bg-indigo-50 p-6 rounded-lg border-2 border-white dark:border-black">
+            <div className="bg-rose-50 p-6 rounded-lg border-2 border-white dark:border-black">
               <h4 className="text-gray-500 font-medium text-sm">2015 - 2018</h4>
               <h2 className="text-lg font-medium">SMK Mandalahayu 2 Bekasi</h2>
               <p className="text-sm">
@@ -149,7 +159,7 @@ const ResumeContent = () => {
             <h2 className="font-semibold text-2xl">Working Skill</h2>
           </div>
 
-          <div className="grid grid-cols-1 gap-6 mt-8">
+          <div className="grid grid-cols-1 gap-6 mt-7">
             <div className="work">
               {/* <h2>HTML, CSS, Javascript, & PHP</h2> */}
               <ProgressBar
@@ -225,9 +235,24 @@ const ResumeContent = () => {
             <KnowLedge title={"NextJs"} />
             <KnowLedge title={"React Native"} />
             <KnowLedge title={"TailwindCSS"} />
+            <KnowLedge title={"MySQL"} />
             <KnowLedge title={"Bootstrap"} />
             <KnowLedge title={"Laravel"} />
-            <KnowLedge title={"HTML, CSS, Javascript & PHP"} />
+            <KnowLedge title={"Supabase"} />
+            <KnowLedge title={"Javascript"} />
+            <KnowLedge title={"PhpMyAdmin"} />
+            <KnowLedge title={"Windows"} />
+            <KnowLedge title={"PHP"} />
+            <KnowLedge title={"HTML & CSS"} />
+            <KnowLedge title={"Visual Studio Code"} />
+            <KnowLedge title={"Linux"} />
+            <KnowLedge title={"Microsoft Word"} />
+            <KnowLedge title={"Microsoft Excel"} />
+            <KnowLedge title={"Figma"} />
+            <KnowLedge title={"Canva"} />
+            <KnowLedge title={"Android"} />
+            <KnowLedge title={"IOS"} />
+            <KnowLedge title={"Custom ROM"} />
           </div>
         </div>
       </div>
