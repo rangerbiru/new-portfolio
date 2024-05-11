@@ -4,6 +4,9 @@ import bnsp from "../assets/certificate/bnsp.jpg";
 import jsDasar from "../assets/certificate/js-dasar.jpg";
 import reactJs from "../assets/certificate/reactjs.jpg";
 import webDasar from "../assets/certificate/web-dasar.jpg";
+import sertifKehadiran from "../assets/certificate/sertifikat-kehadiran.png";
+import certificate2 from "../assets/certificate/certificate2.jpg";
+
 import Fancybox from "../utils/FancyBox";
 
 const HomeProflie = () => {
@@ -191,28 +194,44 @@ const HomeProflie = () => {
                 <img
                   src={webDasar}
                   alt="certificate"
-                  className="w-full h-[330px] object-cover rounded-lg"
+                  className="w-full h-[330px] max-lg:h-28 object-cover rounded"
                 />
               </a>
               <a data-fancybox="certificate" href={reactJs}>
                 <img
                   src={reactJs}
                   alt="certificate"
-                  className="w-full h-[330px] object-cover rounded-lg"
+                  className="w-full h-[330px] max-lg:h-28 object-cover rounded"
                 />
               </a>
               <a data-fancybox="certificate" href={jsDasar}>
                 <img
                   src={jsDasar}
                   alt="certificate"
-                  className="w-full h-[330px] object-cover rounded-lg"
+                  className="w-full h-[330px] max-lg:h-28 object-cover rounded"
                 />
               </a>
               <a data-fancybox="certificate" href={bnsp}>
                 <img
                   src={bnsp}
                   alt="certificate"
-                  className="w-full h-[330px] object-cover rounded-lg border-8 border-blue-950"
+                  className="w-full h-[330px] max-lg:h-28 object-cover rounded border-[12px] border-blue-950 max-lg:border-4"
+                />
+              </a>
+
+              <a data-fancybox="certificate" href={sertifKehadiran}>
+                <img
+                  src={sertifKehadiran}
+                  alt="certificate"
+                  className="w-full h-[330px] max-lg:h-28 object-cover rounded"
+                />
+              </a>
+
+              <a data-fancybox="certificate" href={certificate2}>
+                <img
+                  src={certificate2}
+                  alt="certificate"
+                  className="w-full h-[330px] max-lg:h-28 object-cover rounded"
                 />
               </a>
             </div>
