@@ -19,8 +19,8 @@ const ProgressBar = ({ title, percentage, color }) => {
 
 const KnowLedge = ({ title }) => {
   return (
-    <div className="flex">
-      <h3 className="bg-gray-200 py-3 px-4 rounded w-fit text-sm dark:border dark:border-black hover:bg-gray-500 hover:text-white transition-all duration-300">
+    <div className="flex flex-wrap">
+      <h3 className="bg-gray-200 py-3 px-4 rounded w-fit text-sm dark:border dark:border-black hover:bg-gray-500 hover:text-white transition-all duration-300 max-lg:text-xs">
         {title}
       </h3>
     </div>
@@ -149,7 +149,7 @@ const ResumeContent = () => {
             <h2 className="font-semibold text-2xl">Working Skill</h2>
           </div>
 
-          <div className="grid grid-cols-1 gap-6 mt-4">
+          <div className="grid grid-cols-1 gap-6 mt-8">
             <div className="work">
               {/* <h2>HTML, CSS, Javascript, & PHP</h2> */}
               <ProgressBar
@@ -172,6 +172,16 @@ const ResumeContent = () => {
                 title={"React Native"}
                 percentage={85}
                 color={"bg-purple-400"}
+              />
+              <ProgressBar
+                title={"Laravel"}
+                percentage={75}
+                color={"bg-red-400"}
+              />
+              <ProgressBar
+                title={"Microsoft Office"}
+                percentage={90}
+                color={"bg-indigo-400"}
               />
             </div>
           </div>
@@ -215,8 +225,9 @@ const ResumeContent = () => {
             <KnowLedge title={"NextJs"} />
             <KnowLedge title={"React Native"} />
             <KnowLedge title={"TailwindCSS"} />
-            <KnowLedge title={"HTML, CSS, Javascript & PHP"} />
             <KnowLedge title={"Bootstrap"} />
+            <KnowLedge title={"Laravel"} />
+            <KnowLedge title={"HTML, CSS, Javascript & PHP"} />
           </div>
         </div>
       </div>
