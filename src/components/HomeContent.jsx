@@ -189,33 +189,33 @@ const HomeProflie = () => {
               },
             }}
           >
-            <div className="grid grid-cols-2 gap-6">
+            <div className="grid grid-cols-2 gap-6 max-lg:grid-cols-1">
               <a data-fancybox="certificate" href={webDasar}>
                 <img
                   src={webDasar}
                   alt="certificate"
-                  className="w-full h-[330px] max-lg:h-28 object-cover rounded"
+                  className="w-full h-[330px] max-lg:h-full object-cover rounded"
                 />
               </a>
               <a data-fancybox="certificate" href={reactJs}>
                 <img
                   src={reactJs}
                   alt="certificate"
-                  className="w-full h-[330px] max-lg:h-28 object-cover rounded"
+                  className="w-full h-[330px] max-lg:h-full object-cover rounded"
                 />
               </a>
               <a data-fancybox="certificate" href={jsDasar}>
                 <img
                   src={jsDasar}
                   alt="certificate"
-                  className="w-full h-[330px] max-lg:h-28 object-cover rounded"
+                  className="w-full h-[330px] max-lg:h-full object-cover rounded"
                 />
               </a>
               <a data-fancybox="certificate" href={bnsp}>
                 <img
                   src={bnsp}
                   alt="certificate"
-                  className="w-full h-[330px] max-lg:h-28 object-cover rounded border-[12px] border-blue-950 max-lg:border-4"
+                  className="w-full h-[330px] max-lg:h-full object-cover rounded border-[12px] border-blue-950 max-lg:border-4"
                 />
               </a>
 
@@ -223,7 +223,7 @@ const HomeProflie = () => {
                 <img
                   src={sertifKehadiran}
                   alt="certificate"
-                  className="w-full h-[330px] max-lg:h-28 object-cover rounded"
+                  className="w-full h-[330px] max-lg:h-full object-cover rounded"
                 />
               </a>
 
@@ -231,7 +231,7 @@ const HomeProflie = () => {
                 <img
                   src={certificate2}
                   alt="certificate"
-                  className="w-full h-[330px] max-lg:h-28 object-cover rounded"
+                  className="w-full h-[330px] max-lg:h-full object-cover rounded"
                 />
               </a>
             </div>

@@ -11,4 +11,10 @@
     filter: brightness(50%);
 }
 
+.tess {
+    box-shadow:0 0 0 10000px rgba(0,0,0,.70);
+    z-index: 100;
+}
+
+
   

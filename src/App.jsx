@@ -26,9 +26,9 @@ const App = () => {
       }}
       className={`bg-[url('./assets/bgHome.svg')] dark:bg-[url('./assets/bgHomeDark.svg')] transition-all duration-300 bg-fixed max-lg:bg-scroll`}
     >
-      <Header />
-      <main className="mt-10">
-        <BrowserRouter>
+      <BrowserRouter>
+        <Header />
+        <main className="pt-10">
           <ScrollToTop />
           <Routes>
             <Route path="/" element={<Home />} />
@@ -36,8 +36,8 @@ const App = () => {
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
-        </BrowserRouter>
-      </main>
+        </main>
+      </BrowserRouter>
     </div>
   );
 };

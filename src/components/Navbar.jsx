@@ -10,7 +10,7 @@ const Navbar = () => {
   const isContactPage = location.pathname === "/contact";
 
   return (
-    <div className="p-5 flex flex-col items-center gap-5">
+    <div className="p-5 flex flex-col items-center gap-5 max-lg:hidden">
       {/* Profile Page */}
       <Link
         to={"/"}
