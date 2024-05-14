@@ -18,7 +18,7 @@ const SidebarMobile = ({ showSidebar, checkHandler, sidebarRef }) => {
     >
       <div className="flex items-center justify-between">
         <h2 className="title-roboto text-2xl font-bold">Rangerbiru.dev</h2>
-        <label className="bg-white text-black btn-circle swap swap-rotate">
+        <label className="bg-white text-black btn-circle size-11 swap swap-rotate">
           {/* this hidden checkbox controls the state */}
           <input
             type="checkbox"
