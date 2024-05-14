@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
+import SidebarMobile from "./SidebarMobile";
 
 const Header = () => {
   //   Set Themes
@@ -46,56 +47,7 @@ const Header = () => {
           Rangerbiru.dev
         </h2>
 
-        <label className="btn btn-circle swap lg:hidden">
-          {/* this hidden checkbox controls the state */}
-          <input
-            type="checkbox"
-            checked={showSidebar}
-            onChange={checkHandler}
-          />
-
-          {/* hamburger icon */}
-          <svg
-            className="swap-off fill-current"
-            xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
-            viewBox="0 0 512 512"
-          >
-            <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
-          </svg>
-        </label>
-
-        {/* SidebarContent */}
-        <div
-          ref={sidebarRef}
-          className={`top-0 right-0  bg-blue-600 p-10 pl-20 text-white w-full fixed h-full z-40 ease-in-out duration-300 ${
-            showSidebar ? "translate-x-0 tess" : "translate-x-full"
-          }`}
-        >
-          <label className="btn btn-circle swap swap-rotate">
-            {/* this hidden checkbox controls the state */}
-            <input
-              type="checkbox"
-              checked={showSidebar}
-              onChange={checkHandler}
-            />
-
-            {/* close icon */}
-            <svg
-              className="swap-on fill-current"
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              viewBox="0 0 512 512"
-            >
-              <polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49" />
-            </svg>
-          </label>
-          <h3 className="mt-20 text-4xl font-semibold text-white">
-            I am a sidebar
-          </h3>
-        </div>
+        {/* End Sidebar Content */}
 
         {/* Dark Mode */}
 
@@ -125,6 +77,33 @@ const Header = () => {
             <path d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z" />
           </svg>
         </label>
+
+        <label className="bg-white dark:text-black  btn-circle swap lg:hidden">
+          {/* this hidden checkbox controls the state */}
+          <input
+            type="checkbox"
+            checked={showSidebar}
+            onChange={checkHandler}
+          />
+
+          {/* hamburger icon */}
+          <svg
+            className="swap-off fill-current"
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 512 512"
+          >
+            <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
+          </svg>
+        </label>
+
+        {/* SidebarContent */}
+        <SidebarMobile
+          showSidebar={showSidebar}
+          checkHandler={checkHandler}
+          sidebarRef={sidebarRef}
+        />
       </div>
     </header>
   );
