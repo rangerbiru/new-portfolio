@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-const items = ["All", "HTML & CSS", "ReactJs", "NextJs", "React Native"];
+const items = ["All", "HTML & CSS", "ReactJs", "Laravel 11", "React Native"];
 
 function FilterButtons({ handleClick, active }) {
   return (
@@ -9,7 +9,7 @@ function FilterButtons({ handleClick, active }) {
         <button
           className={`${
             active === item.toLowerCase() && "bg-blue-600 text-white "
-          } cursor-pointer py-2 px-4 hover:bg-blue-600  hover:text-white transition-all duration-300 rounded-2xl border border-black`}
+          } cursor-pointer py-2 px-4 hover:bg-blue-600  hover:text-white transition-all duration-300 rounded-2xl shadow-md border-2 border-black`}
           onClick={() => handleClick(item.toLowerCase())}
           key={i}
         >
@@ -70,6 +70,12 @@ const PortfolioContent = () => {
         img: "https://i.imgur.com/zTKcMzn.png",
         category: "reactjs",
         link: "https://movies-search-tau.vercel.app/",
+      },
+      {
+        title: "Toko Rafiza (Fixing Bug Image Hosting)",
+        img: "https://i.imgur.com/zTKcMzn.png",
+        category: "laravel 11",
+        link: "https://toko-rafiza.000webhostapp.com/",
       },
     ],
   };
